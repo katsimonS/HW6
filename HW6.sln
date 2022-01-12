@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW6", "HW6\HW6.csproj", "{2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWLibrary", "HWLibrary\HWLibrary.csproj", "{AF9D959B-4CCF-435E-BD1D-A85A0F8D3899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWTests", "HWTests\HWTests.csproj", "{F7FE27BF-9A8A-4CF9-9308-73DBA009D442}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HWTests", "HWTests\HWTests.csproj", "{F7FE27BF-9A8A-4CF9-9308-73DBA009D442}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

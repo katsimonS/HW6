@@ -5,17 +5,9 @@ namespace HW6
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            try
-            {
-                var result = VariablesHelper.CalculateEqantion(-1, -2);
-                Console.WriteLine(result);
-            }
-            catch(ArgumentException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            //Console.WriteLine(ConditionalOperatorsHelper.Task5(93));
         }
     }
 }

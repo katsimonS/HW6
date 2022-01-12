@@ -26,7 +26,9 @@ namespace HWTests
             catch (ArgumentException ex)
             {
                 Assert.AreEqual("A equal to B!", ex.Message);
+                Assert.Pass();
             }
+            Assert.Fail();
         }
     }
 }
