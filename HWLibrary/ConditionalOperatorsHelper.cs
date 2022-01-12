@@ -195,7 +195,7 @@ namespace HWLibrary
                         b = "six";
                         break;
                     case 7:
-                        b = "sever";
+                        b = "seven";
                         break;
                     case 8:
                         b = "eight";

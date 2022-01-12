@@ -30,6 +30,7 @@ namespace HWLibrary
 
             int division = a / b;
             int remainder = a % b;
+
             return (division, remainder);
         }
         public static double LinearEquation(double a, double b, double c)
@@ -39,19 +40,19 @@ namespace HWLibrary
                 throw new ArgumentException("A or B or C equal to zero!");
             }
 
-            return Math.Round(((c - b) / a), 2);
+            return (c - b) / a;
         }
-        public static string EquationOfLine(int x1, int y1, int x2, int y2)
+        public static (double, double) EquationOfLine(int x1, int y1, int x2, int y2)
         {
             if(x1 == x2)
             {
                 throw new ArgumentException("X1 equal to X2!");
             }
 
-            double a = Math.Round((y1 * 1.0 - y2) / (x1 - x2), 2);
-            double b = Math.Round((y2 - (y1 * 1.0 - y2) / (x1 - x2) * x2), 2);
+            double a = Math.Round((y1 - y2) / (double)(x1 - x2), 2);
+            double b = Math.Round(y2 - a * x2, 2);
 
-            return $"Y = {a}X + ({b})";
+            return (a, b);
         }
     }
 }

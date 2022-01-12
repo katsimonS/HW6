@@ -75,7 +75,7 @@ namespace HWLibrary
             return sum;
         }
 
-        public static void Swap(ref int a, ref int b)
+        static void Swap(ref int a, ref int b)
         {
             int temp = a;
             a = b;
