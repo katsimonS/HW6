@@ -70,7 +70,7 @@ namespace HWLibrary
 
             return (a, b, c);
         }
-        
+
         static void Swap(ref int a, ref int b)
         {
             int temp = a;
